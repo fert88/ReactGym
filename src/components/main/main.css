@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;    
+}
+.bg-video{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+.main-text{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    padding: 20% 40% 20% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text-icon{
+    color: white;
+    font-size: 56px;
+    cursor: pointer;
+}
+.main-text-title{
+    color: white;
+    font-size: 56px;
+    font-family: 'Dancing Script', cursive;
+}
+.main-text-title>p>span{
+    color: red;
+}
+.main-text-info{
+    color: white;
+}
+.main-text-btn{
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.main-text-btn>a{
+    text-decoration: none;
+    color: white;
+}
+.main-text-btn:hover{
+    width: 200px;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.main-text-contact{
+    position: absolute;
+    bottom: 0;
+    padding: 0 10% 5% 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text-contact-icons{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.main-text-contact-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+
+}
+.main-text-contact-icon:hover{
+    background: red;
+    transition: 1s;
+    cursor: none;
+}
+.main-text-contact-user{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.main-text-contact-user>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.main-text-contact-user:hover{
+    background: red;
+    transition: 1s;
+    cursor: none;
+}
+.main-text-contact-user>a:hover{
+    cursor: none;
+}

@@ -1,0 +1,99 @@
+.program{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(0,0,35);
+    padding: 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.program-right{
+    width: 50%;
+}
+.program-logo{
+    width: 100px;
+    height: 45px;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.program-logo:hover{
+    cursor: none;
+}
+.program-right-image{
+    position: absolute;
+    width: 50%;
+    display: none;
+   
+}
+.program-right>h2{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.program-right>p{
+    color: white;
+    margin-bottom: 10px;
+}
+.program-left{
+    width: 50%;
+}
+.program-left-icons{
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+}
+.program-left-icon{
+    width: 33%;
+    box-sizing: border-box;
+}
+.program-left-icon>img{
+    width: 50px;
+    height: 50px;
+}
+.program-left-icon>h3{
+    color: white;
+    text-transform: uppercase;
+    
+}
+@media(max-width:980px){
+    .program{
+        height: fit-content;
+    }
+    .program-right{
+        width: 100%;
+    }
+    .program-right-image{
+        position: relative;
+        display: flex;
+    }
+    .program-left{
+        width: 100%;
+    }
+    .program-left-image{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .program{
+        height: fit-content;
+    }
+    .program-right{
+        overflow: hidden;
+    }
+}
+@media(max-width:650px){
+    .program{
+        height: fit-content;
+    }
+}
+@media(max-width:500px){
+    .program{
+        height: fit-content;
+    }
+}

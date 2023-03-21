@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Freehand&display=swap');
+
+.contact{
+    position: relative;
+    width: 100%;
+    height: 130vh;
+}
+.contact-bg{
+    width: 100%;
+    height: 50vh;
+    background: rgb(0,0,35);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact-text{
+    position: absolute;
+    width: 90%;
+    height: 70vh;
+    z-index: 1;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-text-title{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 3vh;
+}
+.contact-text-title span{
+    color: red;
+}
+.contact-info{
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    box-shadow: 0 10px 10px #c7c7c7;
+}
+.contact-info-text{
+    width: 50%;
+    padding: 5% 3%;
+}
+.contact-info-text>h2 span{
+    color: red;
+}
+.contact-info-text>p{
+    margin:15px 0;
+}
+.contact-info-text>p span{
+    color: red;
+}
+.contact-info-text>p:last-child{
+    font-family: 'Freehand', cursive;
+    font-size: 36px;
+}
+.contact-info-input{
+    background: red;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+.contact-info-input>label{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.input-text{
+    border-radius: 5px;
+    width: 50%;
+    margin: 5px 0;
+    height: 30px;
+    padding: 5px;
+    border: none;
+
+}
+.contact-info-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-info-checkbox-item{
+    width: 33%;
+    text-transform: uppercase;
+    padding: 10px 7px 0 0;
+    color: white;
+}
+.checkbox{
+    width: 20px;
+    cursor: pointer;
+}
+.input-text-area{
+    border-radius: 10px;
+    height: 80px;    
+}
+.contact-btn{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.contact-text>p{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-text>p:last-child{
+    color: red;
+}
+@media(max-width:850px){
+    .contact{
+        height: fit-content;
+    }
+    .contact-info{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .contact-info-input,.contact-info-text{
+        width: 100%;
+    }
+}
